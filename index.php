@@ -9,10 +9,8 @@
   <link rel="stylesheet" media="screen" href="includes/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/d25a837557.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -26,11 +24,18 @@
             </div>
             <div class="header-list">
                 <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
-                    <li>Lorem Ipsum</li>
+                    <li>Home</li>
+                    <li>Our Story</li>
+                    <li>RSVP</li>
                 </ul>
             </div>
+        </div>
+    </section>
+    <section id="hero" class="sections">
+        <div class="containers">
+            <h4>02 - 02 - 2024</h4>
+            <h1>Neil and Roselyn</h1>
+            <h4>are tying the knot</h4>
         </div>
     </section>
     <section id="hero" class="sections">

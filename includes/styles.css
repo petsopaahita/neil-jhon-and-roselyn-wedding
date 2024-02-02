@@ -11,13 +11,26 @@ body * {
 }
 
 h1 {
-	color: #fcfdfe;
+	color: #452B0E;
 	font-family: 'Dancing Script', cursive;
 	font-size: 80px;
 }
 
+h4 {
+    color: #452B0E;
+	font-family: 'PT Serif', serif;
+	font-size: 24px;
+}
+
 li {
+    color: #fff;
+	font-family: 'PT Serif', serif;
+    font-size: 16px;
     list-style: none;
+}
+
+#hero h1, #hero h4 {
+	text-align: center;
 }
 
 .containers {
@@ -57,8 +70,14 @@ li {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	background-image: url('images/hero-bg.jpg');
+	background-image: url('images/hero-bg-3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+}
+
+#hero .containers {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 }
