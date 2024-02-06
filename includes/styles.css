@@ -102,6 +102,16 @@ li:hover {
 	color: #0a3142 !important;
 }
 
+.hamburger-menu {
+	padding: 0 2em;
+	display: none;
+}
+
+#header .fa-bars {
+	color: #fff;
+	font-size: 24px;
+}
+
 .rsvp-btn {
 	border: none;
 	height: 40px;
@@ -144,6 +154,7 @@ li:hover {
 
 .two-col img {
 	max-width: 100%;
+	border-radius: 15px;
 }
 
 .containers {

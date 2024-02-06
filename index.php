@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" media="screen" href="includes/styles.css">
   <link rel="stylesheet" media="screen" href="includes/responsive.css">
-  <link rel="stylesheet" media="screen" href="includes/scripts.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,7 +14,6 @@
   <script src="https://kit.fontawesome.com/d25a837557.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://kit.fontawesome.com/d25a837557.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,11 +24,14 @@
             </div>
             <div class="header-list">
                 <ul>
-                    <li><a href="" data-section="hero-section">Home</a></li>
-                    <li><a href="" data-section="story-section">Our Story</a></li>
-                    <li><a href="" data-section="details-section">Details</a></li>
-                    <li><a href="" data-section="rsvp-section">RSVP</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a id="story-link">Our Story</a></li>
+                    <li><a id="details-link">Details</a></li>
+                    <li><a id="rsvp-link">RSVP</a></li>
                 </ul>
+            </div>
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
     </section>
@@ -142,6 +143,35 @@
             <div class="spacer"></div>
         </div>
     </section>
+    
+    <section id="rsvp-popup-main" >
+        <div class="svp-popup">
+            <div class="spacer"></div>
+            <h3 class="color-white">RSVP FOR NEIL JHON AND ROSELYN'S WEDDING</h3>
+            <form id="rsvp-form">
+                <div class="form-group" >
+                    <label for="first-name" class="color-primary">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group" >
+                    <label for="last-name" class="color-primary">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div> <div class="form-group" >
+                    <label for="email" class="color-primary">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div> <div class="form-group text-center">
+                    <button type="submit" class="rsvp-btn">
+                        <span>RSVP</span>
+                    </button>
+                </div>
+            </form>
+            <div class="spacer"></div>
+        </div>
+    </section>
+
+<!-- scripts -->
+<script src="includes/scripts.js"></script>
+
 </body>
 
 </html>
