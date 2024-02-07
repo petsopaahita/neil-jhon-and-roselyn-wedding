@@ -91,6 +91,11 @@ li:hover {
 	cursor: pointer;
 }
 
+label {
+	font-family: 'PT Serif', serif;
+	font-size: 24px;
+}
+
 #story span {
 	font-family: 'Dancing Script', cursive;
 	font-size: 24px;
@@ -155,6 +160,7 @@ li:hover {
 .two-col img {
 	max-width: 100%;
 	border-radius: 15px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .containers {
@@ -298,4 +304,48 @@ li:hover {
 #footer .social-icon-cont {
 	display: flex;
 	gap: 40px;
+}
+
+/* ------------RSVP pop-up-------------- */
+
+#rsvp-popup-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 0;
+	height: 100vh;
+	width: 100%;
+	background-color: transparent;
+}
+
+#rsvp-popup-main .two-col {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.rsvp-popup {
+	border: 1px solid red;
+	max-width: 50%;
+	width: 100%;
+	border-radius: 30px;
+}
+
+#rsvp-form {
+	display: flex;
+	flex-direction: column;
+}
+
+#rsvp-popup-main label {
+	max-width: 80%;
+	width: 100%;
+	margin: 0 16px 0 auto;
+}
+
+#rsvp-popup-main input {
+	max-width: 80%;
+	width: 100%;
+	margin: 0 auto 0 16px;
+	padding: 6px 0;
 }

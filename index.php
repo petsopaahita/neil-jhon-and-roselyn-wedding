@@ -64,6 +64,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="spacer"></div>
+                <div class="two-col-cont">
+                    <div class="two-col color-white">
+                        <div class="text-box">
+                            <span>"We met 9 years ago in London for the first time. Dave was in a supermarket, in the frozen aisle trying to figure out what vegan ice cream is and a girl walks up and says: ‘Hey, do you know where to find vegan ice cream?’. As a couple we've been are together for 8 years now & we’re getting married next year."</span>
+                            <br><br>
+                            <span>- Cashier sa SM</span>
+                        </div>
+                    </div>
+                    <div class="two-col">
+                        <img src="includes/images/pexels-j-carter-254069.jpg" alt="">
+                    </div>
+                </div>
             <div class="spacer"></div>
         </div>
     </section>
@@ -145,25 +158,27 @@
     </section>
     
     <section id="rsvp-popup-main" >
-        <div class="svp-popup">
+        <div class="rsvp-popup">
             <div class="spacer"></div>
-            <h3 class="color-white">RSVP FOR NEIL JHON AND ROSELYN'S WEDDING</h3>
+            <h3 class="color-primary text-align-center">Lorem Ipsum Lorem Ipsum</h3>
+            <div class="spacer-2"></div>
             <form id="rsvp-form">
-                <div class="form-group" >
-                    <label for="first-name" class="color-primary">First Name:</label>
-                    <input type="text" id="first-name" name="first-name" required>
+                <div class="two-col-cont">
+                    <div class="two-col">
+                        <label for="first-name" class="color-primary">First Name:</label>
+                        <label for="last-name" class="color-primary">Last Name:</label>
+                        <label for="email" class="color-primary">Email:</label>
+                    </div>
+                    <div class="two-col">
+                        <input type="text" id="first-name" name="first-name" required>
+                        <input type="text" id="last-name" name="last-name" required>
+                        <input type="email" id="email" name="email">
+                    </div>
                 </div>
-                <div class="form-group" >
-                    <label for="last-name" class="color-primary">Last Name:</label>
-                    <input type="text" id="last-name" name="last-name" required>
-                </div> <div class="form-group" >
-                    <label for="email" class="color-primary">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div> <div class="form-group text-center">
-                    <button type="submit" class="rsvp-btn">
-                        <span>RSVP</span>
-                    </button>
-                </div>
+                <div class="spacer-2"></div>
+                <button class="rsvp-btn">
+                    <span>RSVP</span>
+                </button>
             </form>
             <div class="spacer"></div>
         </div>
