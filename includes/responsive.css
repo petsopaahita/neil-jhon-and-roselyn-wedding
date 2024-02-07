@@ -19,6 +19,9 @@
         max-width: 100%;
         padding: 0;
     }
+    #story .containers .two-col-cont:nth-child(6) {
+        flex-direction: column-reverse;
+    }
 }
 @media only screen and (max-width: 767px) {
     h1 {
