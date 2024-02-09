@@ -25,13 +25,40 @@
 }
 @media only screen and (max-width: 767px) {
     h1 {
-        font-size: 72px;
+        font-size: 56px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .spacer {
+        height: 40px;
+    }
+    #story span {
+        font-size: 16px;
+    }
+    #rsvp-popup-main .spacer {
+        height: 80px;
+    }
+    #rsvp-popup-main label {
+        font-size: 16px;
+    }
+    #rsvp-popup-main input {
+        padding: 0 8px;
     }
     .header-list {
         display: none;
     }
     .hamburger-menu {
         display: flex;
+    }
+    #hero .containers {
+        gap: 8px;
     }
     #footer .two-col-cont {
         display: flex;

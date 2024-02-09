@@ -57,6 +57,10 @@ body * {
 	text-align: center;
 }
 
+.font-weight-700 {
+	font-weight: 700;
+}
+
 .colm-reverse {
 	flex-direction: column-reverse;
 }
@@ -227,6 +231,7 @@ label {
 	top: 0;
 	width: 100%;
 	z-index: 1;
+	min-height: 100px;
 }
 
 #header .containers {
@@ -278,6 +283,7 @@ label {
 	position: relative;
 	justify-content: center;
 	align-items: center;
+	margin-top: -80px;
 }
 
 #hero h1, #hero h4 {
@@ -286,7 +292,7 @@ label {
 
 #hero .rsvp-btn {
 	position: absolute;
-	bottom: -160px;
+	bottom: -48%;
 }
 
 #story {
@@ -313,6 +319,15 @@ label {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+#details .overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #details .two-col {
@@ -413,7 +428,7 @@ label {
 }
 
 #rsvp-popup-main input {
-	max-width: 75%;
+	max-width: 65%;
 	width: 100%;
 	display: flex;
 	margin: 0 auto 0 8px;
@@ -468,8 +483,8 @@ label {
 }
 
 #main.blur-2 {
-	filter: blur(8px);
-	transition: filter 0.3s ease-in-out;
+	filter: blur(80px);
+	transition: filter 1s ease-in-out;
 	pointer-events: none;
 	position: fixed;
 }

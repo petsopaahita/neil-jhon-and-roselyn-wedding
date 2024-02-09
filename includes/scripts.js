@@ -13,6 +13,31 @@ window.onload = function() {
   heroSection.classList.add('animate');
 }
 
+// --------------------------------------------------------
+
+$('#story-link').click(function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $('#story').offset().top
+  }, 1000);
+});
+
+$('#details-link').click(function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $('#details').offset().top
+  }, 1000);
+});
+
+$('#rsvp-link').click(function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $('#rsvp-section').offset().top
+  }, 1000);
+});
+
+// --------------------------------------------------
+
 rsvpBtn1.addEventListener('click', () => {
   rsvpPopup.classList.remove('hide');
   rsvpPopup.classList.add('show');
@@ -63,24 +88,35 @@ menuPopupContainer.addEventListener('click', (e) => {
   }
 });
 
-$('#story-link').click(function(e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: $('#story').offset().top
-    }, 1000);
+// -------------------------------------------------------
+
+$('#link-story-2').click(function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $('#story').offset().top
+  }, 1000);
+  menuPopup.classList.add('hide');
+  menuPopup.classList.remove('show');
+  main.classList.remove('blur-2');
 });
 
-$('#details-link').click(function(e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: $('#details').offset().top
-    }, 1000);
+$('#link-details-2').click(function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $('#details').offset().top
+  }, 1000);
+  menuPopup.classList.add('hide');
+  menuPopup.classList.remove('show');
+  main.classList.remove('blur-2');
 });
 
-$('#rsvp-link').click(function(e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: $('#rsvp-section').offset().top
-    }, 1000);
+$('#link-rsvp-2').click(function(e) {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $('#rsvp-section').offset().top
+  }, 1000);
+  menuPopup.classList.add('hide');
+  menuPopup.classList.remove('show');
+  main.classList.remove('blur-2');
 });
 

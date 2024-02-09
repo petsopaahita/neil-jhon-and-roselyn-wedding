@@ -20,7 +20,7 @@
     <section id="header" class="sections">
         <div class="containers">
             <div class="logo-cont">
-                <img class="logo" src="includes/images/gg2.png" alt="logo">
+                <a href="http://neilandroselyn.lovestoblog.com/"><img class="logo" src="includes/images/gg2.png" alt="logo"></a>
             </div>
             <div class="header-list">
                 <ul>
@@ -81,33 +81,35 @@
         </div>
     </section>
     <section id="details">
-        <div class="containers">
-            <div class="two-col-cont">
-                <div class="two-col">
-                    <div class="spacer-2"></div>
-                    <div class="text-box">
-                        <h2 class="text-align-center color-secondary">Ceremony</h2>
+        <div class="overlay">
+            <div class="containers">
+                <div class="two-col-cont">
+                    <div class="two-col">
                         <div class="spacer-2"></div>
-                        <p class="text-align-center color-secondary">The wedding ceremony will take place at the skies while skydiving.</p>
-                        <br>
-                        <p class="text-align-center color-secondary">The 2nd Christian Cemetery, Lyustdorfs'ka Road 6 65000, Odessa Oblast Ukraine</p>
-                        <br>
-                        <p class="text-align-center color-secondary">1:00AM — 2:30AM</p>
-                    </div>
-                    <div class="spacer-2"></div>
-                </div>
-                <div class="two-col">
-                    <div class="spacer-2"></div>
-                    <div class="text-box">
-                        <h2 class="text-align-center color-secondary">Reception</h2>
+                        <div class="text-box">
+                            <h2 class="text-align-center color-secondary">Ceremony</h2>
+                            <div class="spacer-2"></div>
+                            <p class="text-align-center color-secondary font-weight-700">The wedding ceremony will take place at the skies while skydiving.</p>
+                            <br>
+                            <p class="text-align-center color-secondary font-weight-700">The 2nd Christian Cemetery, Lyustdorfs'ka Road 6 65000, Odessa Oblast Ukraine</p>
+                            <br>
+                            <p class="text-align-center color-secondary font-weight-700">1:00AM — 2:30AM</p>
+                        </div>
                         <div class="spacer-2"></div>
-                        <p class="text-align-center color-secondary">Join our underwater reception in the beautiful seas of Banago. (P.S. Pls bring your own scuba diving gear.)</p>
-                        <br>
-                        <p class="text-align-center color-secondary">Prk. Kitahanon, Brgy. Banago, Bacolod City</p>
-                        <br>
-                        <p class="text-align-center color-secondary">4:00AM — 4:10AM</p>
                     </div>
-                    <div class="spacer-2"></div>
+                    <div class="two-col">
+                        <div class="spacer-2"></div>
+                        <div class="text-box">
+                            <h2 class="text-align-center color-secondary">Reception</h2>
+                            <div class="spacer-2"></div>
+                            <p class="text-align-center color-secondary font-weight-700">Join our underwater reception in the beautiful seas of Banago. (P.S. Pls bring your own scuba diving gear.)</p>
+                            <br>
+                            <p class="text-align-center color-secondary font-weight-700">Prk. Kitahanon, Brgy. Banago, Bacolod City</p>
+                            <br>
+                            <p class="text-align-center color-secondary font-weight-700">4:00AM — 4:10AM</p>
+                        </div>
+                        <div class="spacer-2"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -164,13 +166,13 @@
         <div class="spacer"></div>
         <h3 class="color-white text-align-center">Lorem Ipsum Lorem Ipsum</h3>
         <div class="spacer-2"></div>
-        <form id="rsvp-form">
+        <form id="rsvp-form" action="includes/register.php" method="post">
             <div class="two-col-cont">
                 <div class="two-col">
                     <label for="first-name" class="color-white">First Name:</label>
                 </div>
                 <div class="two-col">
-                    <input type="text" id="first-name" name="first-name" required>
+                    <input type="text" id="first-name" name="first-name" required autocomplete="off">
                 </div>
             </div>
             <div class="two-col-cont">
@@ -178,7 +180,7 @@
                     <label for="first-name" class="color-white">Last Name:</label>
                 </div>
                 <div class="two-col">
-                    <input type="text" id="last-name" name="last-name" required>
+                    <input type="text" id="last-name" name="last-name" required autocomplete="off">
                 </div>
             </div>
             <div class="two-col-cont">
@@ -186,11 +188,11 @@
                     <label for="email" class="color-white">Email:</label>
                 </div>
                 <div class="two-col">
-                    <input type="text" id="email" name="email" required>
+                    <input type="text" id="email" name="email" required autocomplete="off">
                 </div>
             </div>
             <div class="spacer-2"></div>
-            <button class="submit-btn">
+            <button class="submit-btn" type="submit">
                 <span>I will be there!</span>
             </button>
         </form>
@@ -203,10 +205,10 @@
         <i class="fa-solid fa-xmark" id="close-btn-2"></i>
         <div class="menu-popup-list">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a id="story-link">Our Story</a></li>
-                <li><a id="details-link">Details</a></li>
-                <li><a id="rsvp-link">RSVP</a></li>
+                <li id=""><a href="">Home</a></li>
+                <li id="link-story-2"><a >Our Story</a></li>
+                <li id="link-details-2"><a >Details</a></li>
+                <li id="link-rsvp-2"><a >RSVP</a></li>
             </ul>
         </div>
     </div>
