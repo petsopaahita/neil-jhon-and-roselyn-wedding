@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="Neil Jhon and Roselyn are Getting Married" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" media="screen" href="includes/styles.css">
-  <link rel="stylesheet" media="screen" href="includes/responsive.css">
+  <link rel="stylesheet" media="screen" href="utils/styles.css">
+  <link rel="stylesheet" media="screen" href="utils/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
     <section id="header" class="sections">
         <div class="containers">
             <div class="logo-cont">
-                <a href="http://neilandroselyn.lovestoblog.com/"><img class="logo" src="includes/images/gg2.png" alt="logo"></a>
+                <a href=""><img class="logo" src="utils/images/gg2.png" alt="logo"></a>
             </div>
             <div class="header-list">
                 <ul>
@@ -54,7 +54,7 @@
             <div class="spacer"></div>
                 <div class="two-col-cont">
                     <div class="two-col">
-                        <img src="includes/images/pexels-j-carter-254069.jpg" alt="">
+                        <img src="utils/images/pexels-j-carter-254069.jpg" alt="Neil Jhon and Roselyn">
                     </div>
                     <div class="two-col color-white">
                         <div class="text-box">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="two-col">
-                        <img src="includes/images/pexels-j-carter-254069.jpg" alt="">
+                        <img src="utils/images/pexels-j-carter-254069.jpg" alt="Roselyn and Neil Jhon">
                     </div>
                 </div>
             <div class="spacer"></div>
@@ -166,7 +166,7 @@
         <div class="spacer"></div>
         <h3 class="color-white text-align-center">Lorem Ipsum Lorem Ipsum</h3>
         <div class="spacer-2"></div>
-        <form id="rsvp-form" action="includes/register.php" method="post">
+        <form id="rsvp-form" action="utils/register.php" method="post">
             <div class="two-col-cont">
                 <div class="two-col">
                     <label for="first-name" class="color-white">First Name:</label>
@@ -215,7 +215,7 @@
 </section>
 
 <!-- scripts -->
-<script src="includes/scripts.js"></script>
+<script src="utils/scripts.js"></script>
 
 </body>
 

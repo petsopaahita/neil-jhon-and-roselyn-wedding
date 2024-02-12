@@ -9,9 +9,9 @@ $email = $_POST['email'];
 $sql = "INSERT INTO attendees (first_name, last_name, email) VALUES ('$first_name', '$last_name', '$email')";
 
 if (mysqli_query($conn, $sql)) {
-  echo "<script>alert('Registration successful!'); window.location.href = 'http://neilandroselyn.lovestoblog.com/';</script>" ;
+  echo "<script>alert('Thank you for confirming!'); window.location.href = '..';</script>" ;
 } else {
-  echo "<script>alert('Registration Error'); window.location.href = 'http://neilandroselyn.lovestoblog.com/'';</script>" ;
+  echo "<script>alert('Registration Error'); window.location.href = '..';</script>" ;
 }
 
 $conn->close();
