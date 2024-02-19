@@ -214,6 +214,16 @@
     </div>
 </section>
 
+<section id="confirm" >
+    <div class="confirm-main">
+        <i class="fa-solid fa-xmark" id="close-btn"></i>
+        <div class="spacer"></div>
+        <h3 class="color-white text-align-center">Lorem Ipsum Lorem Ipsum</h3>
+        <div class="spacer-2"></div>
+        <div class="spacer"></div>
+    </div>
+</section>
+
 <!-- scripts -->
 <script src="utils/scripts.js"></script>
 

@@ -537,3 +537,19 @@ label {
 #menu-popup li:hover {
 	background-color: rgba(255, 255, 255, 0.5);
 }
+
+/* confirmation popup */
+
+#confirm {
+	display: flex;
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	opacity: 0;
+	pointer-events: none;
+}
