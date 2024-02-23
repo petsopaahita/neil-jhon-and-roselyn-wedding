@@ -1,19 +1,29 @@
 <?php
-
 require_once 'config.php';
 
-$first_name = $_POST['first-name'];
-$last_name = $_POST['last-name'];
-$email = $_POST['email'];
+if(isset($_POST['first-name'], $_POST['last-name'], $_POST['email'])) {
+    $first_name = $_POST['first-name'];
+    $last_name = $_POST['last-name'];
+    $email = $_POST['email'];
 
-$sql = "INSERT INTO attendees (first_name, last_name, email) VALUES ('$first_name', '$last_name', '$email')";
+    $sql = "INSERT INTO attendees (first_name, last_name, email) VALUES (?, ?, ?)";
+    $stmt = $conn->prepare($sql);
 
-if (mysqli_query($conn, $sql)) {
-  echo "<script>alert('Thank you for confirming!'); window.location.href = '..';</script>" ;
+    $stmt->bind_param("sss", $first_name, $last_name, $email);
+
+    if ($stmt->execute()) {
+        echo "<script>alert('Thank you for confirming!'); window.location.href = '..?success=1';</script>" ;
+        exit();
+    } else {
+        echo "<script>alert('Registration Error'); window.location.href = '..?error=1';</script>" ;
+        exit();
+    }
+
+    $stmt->close();
 } else {
-  echo "<script>alert('Registration Error'); window.location.href = '..';</script>" ;
+    echo "<script>alert('Registration Error'); window.location.href = '..?error=1';</script>" ;
+    exit();
 }
 
 $conn->close();
-
 ?>

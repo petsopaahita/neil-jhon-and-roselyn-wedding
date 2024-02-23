@@ -4,10 +4,11 @@ const rsvpBtn2 = document.querySelector('#rsvp-btn-2');
 const rsvpPopup = document.querySelector('#rsvp-popup-main');
 const closeBtn = document.querySelector('#close-btn');
 const closeBtn2 = document.querySelector('#close-btn-2');
-const closeBtn3 = document.querySelector('#close-btn-3');
 const brgrMenu = document.querySelector('#hamburger-menu');
 const menuPopup = document.querySelector('#menu-popup');
 const menuPopupContainer = document.querySelector('#menu-popup-container');
+const confirm = document.querySelector('#confirm');
+const redirectbtn = document.querySelector('#redirect-btn');
 
 window.onload = function() {
   const heroSection = document.querySelector('#hero');
@@ -121,3 +122,4 @@ $('#link-rsvp-2').click(function(e) {
   main.classList.remove('blur-2');
 });
 
+// -------------------------------------------------------

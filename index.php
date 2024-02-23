@@ -214,16 +214,6 @@
     </div>
 </section>
 
-<section id="confirm" >
-    <div class="confirm-main">
-        <i class="fa-solid fa-xmark" id="close-btn-3"></i>
-        <div class="spacer"></div>
-        <h3 class="color-white text-align-center">Thank you for confirming</h3>
-        <h3 class="color-white text-align-center">See you there</h3>
-        <div class="spacer"></div>
-    </div>
-</section>
-
 <!-- scripts -->
 <script src="utils/scripts.js"></script>
 
