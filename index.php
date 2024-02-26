@@ -54,7 +54,7 @@
             <div class="spacer"></div>
                 <div class="two-col-cont">
                     <div class="two-col">
-                        <img src="utils/images/pexels-j-carter-254069.jpg" alt="Neil Jhon and Roselyn">
+                        <img src="utils/images/Neil Jhon & Roselyn.jpg" alt="Neil Jhon and Roselyn">
                     </div>
                     <div class="two-col color-white">
                         <div class="text-box">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="two-col">
-                        <img src="utils/images/pexels-j-carter-254069.jpg" alt="Roselyn and Neil Jhon">
+                        <img src="utils/images/Roselyn and Neil Jhon.jpg" alt="Roselyn and Neil Jhon">
                     </div>
                 </div>
             <div class="spacer"></div>
@@ -188,7 +188,7 @@
                     <label for="email" class="color-white">Email:</label>
                 </div>
                 <div class="two-col">
-                    <input type="text" id="email" name="email" required autocomplete="off">
+                    <input type="text" id="email" name="email" autocomplete="off">
                 </div>
             </div>
             <div class="spacer-2"></div>

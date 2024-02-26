@@ -24,7 +24,7 @@
             <h3 class="color-white text-align-center">Thank you for confirming</h3>
             <h3 class="color-white text-align-center">See you there!</h3>
             <div class="spacer-2"></div>
-            <a href="https://localhost/neil-jhon-and-roselyn-wedding/">
+            <a href="/../">
                 <button id="redirect-btn" class="" type="button">
                     <span>See you there!</span>
                 </button>

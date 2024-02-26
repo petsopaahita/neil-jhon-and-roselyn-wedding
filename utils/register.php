@@ -12,16 +12,16 @@ if(isset($_POST['first-name'], $_POST['last-name'], $_POST['email'])) {
     $stmt->bind_param("sss", $first_name, $last_name, $email);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Thank you for confirming!'); window.location.href = '..?success=1';</script>" ;
+        header("Location: /../neil-jhon-and-roselyn-wedding/thank-you");
         exit();
     } else {
-        echo "<script>alert('Registration Error'); window.location.href = '..?error=1';</script>" ;
+        header("Location: /../neil-jhon-and-roselyn-wedding");
         exit();
     }
 
     $stmt->close();
 } else {
-    echo "<script>alert('Registration Error'); window.location.href = '..?error=1';</script>" ;
+    header("Location: /../neil-jhon-and-roselyn-wedding");
     exit();
 }
 
